@@ -110,23 +110,3 @@ Para executar todos os exemplos, também é necessário adicionar `case_teste_ma
    ```
 4. Abra `Testes_de_hipotese.ipynb` com Jupyter Notebook ou VS Code.
 5. Execute as células em ordem, mantendo os arquivos CSV no diretório de trabalho do notebook.
-
-> **Atenção:** a execução completa da seção de Mann-Whitney depende do CSV não incluído. Os exemplos com aleatoriedade podem variar entre execuções.
-
-## Cuidados metodológicos e melhorias futuras
-
-- Verificar os pressupostos de cada teste antes da interpretação, especialmente independência das observações e condições de uso de testes paramétricos.
-- Incluir intervalos de confiança e tamanhos de efeito para contextualizar a relevância prática dos resultados.
-- Aplicar testes pós-hoc quando a ANOVA ou o Kruskal-Wallis indicarem diferenças globais.
-- Verificar o emparelhamento por identificador de cliente no teste t pareado.
-- Ajustar possíveis divergências entre resultados executados e valores citados nas explicações do notebook (por exemplo, Wilcoxon e Kruskal-Wallis).
-- Fixar uma semente aleatória para tornar as simulações reproduzíveis.
-- Adicionar a base faltante do exemplo Mann-Whitney e um arquivo `requirements.txt`.
-
-## Competências demonstradas
-
-**Python · Análise de Dados · Estatística Inferencial · Testes de Hipóteses · SciPy · Pandas · Visualização de Dados · Interpretação de Resultados · Análise de Negócios**
-
----
-
-**Nota sobre os dados:** este README foi construído com base no notebook e nos dois arquivos CSV disponibilizados. Os resultados representam exercícios demonstrativos e não devem ser generalizados automaticamente para contextos reais sem verificação adicional.
