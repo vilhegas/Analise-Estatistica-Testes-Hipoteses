@@ -94,7 +94,6 @@ analise-estatistica-testes-hipoteses/
 ├── Testes_de_hipotese.ipynb
 ├── case_teste_t_campanha.csv
 ├── nps_regioes.csv
-└── requirements.txt                # opcional: criar com as dependências
 ```
 
 Para executar todos os exemplos, também é necessário adicionar `case_teste_mann_whitney.csv` à pasta ou adaptar a respectiva seção do notebook a uma fonte de dados disponível.
